@@ -2,6 +2,7 @@
   "name": "test-work",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://TarasTikan.github.io/test-work/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -20,7 +21,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "craco eject"
+    "eject": "craco eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +48,7 @@
     "@types/node": "^20.10.5",
     "@types/react": "^18.2.45",
     "@types/react-dom": "^18.2.18",
+    "gh-pages": "^6.1.1",
     "typescript": "^4.5.4"
   }
 }

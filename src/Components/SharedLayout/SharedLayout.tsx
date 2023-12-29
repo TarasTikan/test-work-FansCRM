@@ -15,9 +15,9 @@ export const SharedLayout: React.FC = () => {
       <header>
         {user?.loggedIn && (
           <Container>
-            <HeaderText>Welcome, {user.login}!</HeaderText>
+            <HeaderText>Ласкаво просимо, {user.login}!</HeaderText>
             <LogoutBtn type="button" onClick={logout}>
-              Logout
+              Вихід
             </LogoutBtn>
           </Container>
         )}
